@@ -43,20 +43,22 @@ header {
 
 /* ICONS -------- */
 
-.icn-logo {
-  background: #54606b;
+header .icn-logo {
+  background: #2d5e98;
   color: #fff;
 }
-.icn-logo i {
+
+header #code-icn {
   font-size: 2.45em;
   line-height: 0;
-  margin-top: 30px;
-}
-.icn-error {
-  font-size: 3.2em;
-  margin-bottom: .25em;
+  margin-top: 5px;
+  width: 40px;
 }
 
+#not-found{
+  width: 88px;
+  margin-bottom: .25em;
+}
 /* ================================= 
   MEDIA QUERIES
 ==================================== */
