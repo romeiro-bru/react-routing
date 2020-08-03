@@ -1,0 +1,38 @@
+/* MAIN NAV -------- */
+
+.main-nav a {
+    font-size: .95em;
+    color: #222;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    padding: 1em;
+    transition: .2s;
+  }
+  .main-nav a:hover,
+  .main-nav .active {
+    color: #fff;
+    background: #3b80d1;
+  }
+  
+  /* COURSE NAV -------- */
+  
+  .course-nav li {
+    display: inline-block;
+  }
+  .course-nav li + li {
+    margin-left: .6em;
+  }
+  .course-nav a {
+    font-size: .85em;
+    color: #7d7d7d;
+    padding: .2em .8em;
+    border-radius: .25em;
+    background: #eaebeb;
+    transition: .2s;
+  }
+  .course-nav a:hover,
+  .course-nav a.active {
+    color: #fff;
+    background: #39add1;
+  }
