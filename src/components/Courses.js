@@ -16,7 +16,7 @@ const Courses = () => (
     </div>
     
     {/* Write routes here... */}
-    <Redirect to="/courses/html" />
+    <Route exact path="/courses" render={ () => <Redirect to="/courses/html" /> } />
     <Route path="/courses/html" component={HTML} />
     <Route path="/courses/css" component={Css} />
     <Route path="/courses/javascript" component={JavaScript}  />
