@@ -9,7 +9,7 @@ import Courses from './Courses';
 import NotFound from './NotFound';
 
 const App = () => (
-  <BrowserRouter>
+  <BrowserRouter basename="/react-routing">
     <div className="container">
       <Header />
       {/* wrapp our Routes in the Switch component */}
