@@ -3,7 +3,7 @@ import {  NavLink } from 'react-router-dom';
 
 const Header = () => (
   <header>
-    <span className="icn-logo"><img src="/science.svg" id="code-icn"></img>
+    <span className="icn-logo"><img src="./science.svg" id="code-icn"></img>
     </span>
     <ul className="main-nav">
       <li><NavLink exact to="/" activeStyle={{ background: '#FAC05E' }}>Home</NavLink></li>
